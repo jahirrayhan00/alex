@@ -1,0 +1,302 @@
+/*common css start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ 
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #C2C2C2;
+
+}
+/*common css end*/
+/*header start*/
+header{
+	
+	background-color: black;
+}
+.container { 
+	margin: 0 auto;
+	padding: 35px 0;
+	width: 95%;
+	/*border: 1px solid yellow;*/
+	overflow: hidden;
+    
+
+}
+
+.logo {
+	font-size: 20px;
+	font-weight: 700;
+	float:left;
+	}
+.logo a{
+	text-decoration: none;
+	color: #E81C26;
+
+}
+.menu {
+    
+	float: right;
+	overflow: hidden;
+	/*border: 1px solid white;*/
+
+}
+.menu ul { 
+	
+	
+}
+.menu ul li{
+
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin-right: 30px;
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: none;
+	color: #E81C26;
+	
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.container2 { 
+    padding: 208px 0;
+	text-align: center;
+}
+.container2 h1{
+	font-size: 40px;
+    line-height: 50px;
+    color: white;
+}
+.container2 p{
+	margin-bottom: 15px;
+}
+
+.btn {
+	width: 160px;
+	height: 45px;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	background-color:#E81C26 ;
+
+}
+/*header end*/
+/*about start*/
+section{}
+.container3{
+	text-align: center;
+}
+.f_p{
+	padding-top:100px;
+	padding-bottom: 55px;
+	color: black;
+
+}
+.s_p{
+	padding-bottom: 90px;
+	line-height: 28px;
+}
+.container4 {
+	padding: 80px 0;
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid yellow;*/
+}
+
+.box1 {
+
+	float: left;
+}
+.box1 h5{
+	padding-bottom: 40px;
+	color: black;
+}
+.box1 p{}
+.box2 {
+	padding-left: 128px;
+	float: left;
+}
+.box2 h5{
+	padding-bottom: 40px;
+	color: black;
+}
+.box2 p{}
+
+.box3 {
+	padding-left: 128px;
+	float: left;
+}
+.box3 h5{
+	padding-bottom: 40px;
+	color: black;
+}
+.box3 p{}
+.shape1{
+	margin: 0 auto;
+	width: 20px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: black;
+}
+/*about end*/
+/*My works start*/
+.container5{
+	padding-top: 35px;
+	text-align: center;
+
+}
+.container5 h5{
+	margin-bottom: 50px;
+	font-weight: 400;
+	color: black;
+
+}
+.container5 p {
+
+	line-height: 28px;
+}
+.container {
+}
+
+.b_container1 {
+	padding: 10px 0;
+	overflow: hidden;
+}
+/*single box start*/
+.w_box1 {
+	width: 31.87%;
+	height: 248px;
+	background-color: skyblue;
+    float: left;
+}
+.w_box1 h2 {
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+
+.w_box2 {
+	margin-left: 20px;
+	width: 31.87%;
+	height: 248px;
+    float: left;
+    background-color:blue ;
+}
+.w_box2 h2 {
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+
+.w_box3 {
+	margin-left: 20px;
+	width: 31.87%;
+	height: 248px;
+	float: left;
+    background-color:royalblue;
+}
+.w_box3 h2 {
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+
+.b_container2{
+
+	padding: 10px 0;
+	overflow: hidden;
+
+}
+.w_box4{
+    width: 31.87%;
+	height: 248px;
+	background-color: orangered;
+    float: left;
+}
+.w_box4 h2{
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+.w_box5{
+	margin-left: 20px;
+    width: 31.87%;
+	height: 248px;
+    float: left;
+    background-color:red;
+}
+.w_box5 h2{
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+.w_box6{
+	margin-left: 20px;
+	width: 31.87%;
+	height: 248px;
+    float: left;
+    background-color:mediumvioletred;
+}
+.w_box6 h2 {
+	margin-top: 120px;
+	text-align: center;
+	color: orange;
+}
+
+/*single box end*/
+/*My works end*/
+/*contact start*/
+.contact { 
+	text-align: center;
+}
+.contact h4{
+	margin-top: 80px;
+	font-size: 21px;
+	font-weight: 400;
+	color: black;
+}
+.btn2 {
+	margin-top: 35px;
+	margin-bottom: 40px;
+    width: 170px;
+    height: 36px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #F2025E;
+}
+
+.c_img {
+
+}
+.c_img img{
+	width: 100;
+}
+/*contact end*/
+/*footer start*/
+.footer{ padding: 20px 0;
+	width: 100%;
+	text-align: center;
+	background-color:black ;
+}
+.f_text{
+	color: white;
+
+}
+.a{
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+
+}
+.f_footer a{
+
+}
+/*footer end*/
